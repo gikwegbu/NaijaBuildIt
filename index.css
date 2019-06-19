@@ -1,0 +1,585 @@
+
+.item{
+    height: 100px;
+}
+
+/*This section controls the whole fa fa-icons and glyphicons used*/
+.fa.fa-home{
+    color: brown;
+}
+.fa.fa-legal{
+    color: gold;
+}
+.fa.fa-lock{
+    color: green;
+}
+.fa.fa-plug{
+    color: aquamarine;
+}
+.fa.fa-cogs{
+    color: silver;
+}
+.fa.fa-microchip{
+    color: black;
+}
+.fa-arrow-right{
+    color: green;
+}
+.fa-arrow-right:hover{
+    font-weight:bolder;
+    color: white;
+}
+.glyphicon.glyphicon-home{
+    color: greenyellow;
+}
+.fa.fa-bar-chart{
+    color: blue;
+}
+.fa.fa-circle-o-notch{
+    color: red;
+}
+.glyphicon.glyphicon-star{
+    color: gold;
+}
+
+.service_section{
+    background-color: white;
+    padding-top: 100px;
+   padding-bottom: 100px;
+}
+.work_section{
+    background-color: #f7f7f7;
+     padding-top: 100px;
+   padding-bottom: 20px;
+}
+.work_box{
+    height: 300px;
+    border-style:inherit;
+   -webkit-border-style:inherit;
+    -moz-border-style:inherit;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+      -webkit-transition: 0.7s;
+      -o-transition: 0.7s;
+      transition: 0.7s;
+     top: 2px;
+    position: relative;
+    
+}
+.work_box:hover{
+    -webkit-box-shadow: 0px 15px 30px -1px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 15px 30px -1px rgba(0,0,0,0.41);
+    box-shadow: 0px 15px 30px -1px rgba(0,0,0,0.41);
+    -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+      transition: 0.5s;
+}
+.work_box.col.project1{
+  background-image: url(images/Testimonial/cat-pet-animal-domestic-104827.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.work_box.col.project2{
+    background-image: url("images/Furniture/woodwork/woodwork2.jpeg");
+     background-position: center;
+    background-size: cover;
+}
+.work_box.col.project3{
+    background-image: url(images/Microcontroller_and_Arduino/microcontroller%20and%20arduino%204.jpg);
+     background-position: center;
+    background-size: cover;
+}
+.work_box.col.project4{
+    background-image: url(images/Microcontroller_and_Arduino/microcontroller%20and%20arduino%203.jpg);
+     background-position: center;
+    background-size: cover;
+}
+.work_box.col.project5{
+     background-position: center;
+    background-size: cover;
+    background-image: url(images/Microcontroller_and_Arduino/Microcontroller%20and%20arduino1.jpg);
+}
+.work_box.col.project6{
+    background-image: url(images/Solar/solar%20system.jpeg);
+     background-position: center;
+    background-size: cover;
+}
+.col{
+    
+    width: 30.33333%;
+    position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  margin-left: 1%;
+    margin-bottom: 30px;
+  padding-right: 15px;
+    float: left;
+}
+.click{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+   font-family: "Raleway", Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+ -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+    
+}
+.click:hover{
+     text-decoration: none;
+    color: white;
+}
+.click.with-arrow {
+  position: relative;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.click.with-arrow i {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -8px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.click.with-arrow:hover {
+  padding-right: 50px;
+    
+}
+.click.with-arrow:hover i {
+  color: red;
+  right: 18px;
+  visibility: visible;
+  opacity: 1;
+}
+.space{
+    padding-top: 260px;
+    
+}
+.testimony{
+    background-color: white;
+}
+.testimony_content{
+    margin-left: 340px;
+    width: 500px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius: 80px;
+        border: 2px solid aqua;
+        transition: 0.9s;
+}
+.testimony_content:hover{
+    transition: 0.3s;
+    background-color: aqua
+}
+.testimony_content h2{
+    color: white;
+    font-weight: bolder;
+}
+.testimony_content q{
+    font-style: italic;
+    color: black;
+    font-weight: 400;
+}
+/*This takes care of both carousel slides designs*/
+/*This is for the introduction slide*/
+.carousel-inner.slide{
+    height: 700px;
+}
+.item.slide,.item.slide1,.item.slide2,.item.slide3,.item.slide4{
+     background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 700px;
+}
+.item.slide{
+    background-image: url("images/Furniture/cushions/cushion%202.jpg");
+}
+
+.item.slide1{
+    background-image: url("");
+}
+
+.item.slide2{
+    background-image: url("");
+}
+.item.slide3{
+    background-image: url("");
+}
+.item.slide4{
+    background-image: url("");
+}
+/*This is for the testimony slide*/
+.person,.item.person1,.item.person2,.item.person3,.item.person4{
+    background-position:center;
+    background-repeat: no-repeat;
+   height: 400px;
+}
+.person{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+}
+.item.person1{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+}
+.item.person2{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+}
+.item.person3{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+}
+.item.person4{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+}
+/*This section is for the carousel blog posts*/
+.person{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+    
+}
+
+/*end*/
+.carousel-inner{
+    height: 450px;
+    padding-top:20px; 
+}
+.left.carousel-control{
+    background-color: aqua;
+    height: 100px;
+    top: 50%;
+    border-radius: 15px;
+}
+
+.right.carousel-control{
+    background-color: aqua;
+    height: 100px;
+    top: 50%;
+    border-radius: 15px;
+}
+.input-group{
+    margin-top:10px; 
+}
+.form-control{
+    margin-top: 1px;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+     padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.content a{
+    margin-top: 200px;
+    padding: 20px;
+    -o-transition: 0.5s;
+    transition:0.5s;
+   -webkit-box-shadow: 0px 15px 30px -1px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 15px 30px -1px rgba(0,0,0,0.41);
+    box-shadow: 0px 15px 30px -1px rgba(0,0,0,0.41);
+    
+}
+.content a:hover{
+    text-decoration: none;
+    background-color: greenyellow;
+     -webkit-box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+        -o-transition: 0.6s;
+    transition:0.6s;
+}
+.Get_started{
+    border: 2px solid #fff;
+    -webkit-border: 2px solid #fff;
+    -moz-border: 2px solid #fff;
+    border-radius: 20px;
+     -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    background-color: aqua;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.blog-post{
+    background-color: #f7f7f7;
+     padding-bottom: 20px;
+}
+.blog_float{
+    background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+    height: auto;
+    border-radius: 10px;
+}
+.blog_content{
+    margin-top: -20px;
+    height:auto;
+    background-color: transparent;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid aqua;
+    -webkit-border: 2px solid #fff;
+    -moz-border: 2px solid #fff;
+    border-radius: 20px;
+     -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    transition:0.5s;
+}
+.blog_content:hover{
+    background-color: aqua;
+    transition:0.5s;
+
+}
+.blog_float:hover{
+     -webkit-box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+    box-shadow: 0px 0px 0px 0px rgba(200,50,40,0.41);
+}
+.blog-grid:hover{
+    text-decoration: none;
+    color: black;
+   
+}
+.footer{
+    background-color: #262626;
+    margin-top: 10px;
+    color: #607e93;
+}
+.float{
+    float: left;
+}
+.footer h3{
+    color: white;
+}
+.float li, .social li{
+   display: block;
+}
+.float li a{
+    text-decoration: none;
+}
+.float li a:hover, .col-md-12 p a:hover{
+    color: white;
+}
+.col-md-12 p a{
+    text-decoration: none;
+}
+/*This controls the media query for the additional 'col' class property i added to get my required Grid system, Genius right!!! lol, this was done by George Ikwegbu Chinedu*/
+@media  (min-width: 150px ) and (max-width:700px){
+    .col{
+        float: left;
+    }
+    .col{
+        width: 100%;
+    }
+}
+
+@media  (min-width: 700px ) and (max-width:1182px){
+    .col{
+        float: left;
+    }
+    .col{
+        width: 48%;
+        margin-left: 1%;
+    }
+}
+/*This section is for contact us form*/
+.space1{
+    padding-top: 50px;
+    background-color: red;
+}
+.contact_content{
+    background-color: #f7f7f7;
+    padding-bottom: 10px;
+}
+.contact_us{
+      padding-left:10px;
+}
+.contact_sideNews{
+    padding-left:10px;
+}
+blockquote{
+    background-color: lightyellow;
+}
+blockquote ul li{
+   display:inline;
+    padding-left: 20px;
+}
+/*end*/
+/*This section is for the about page*/
+.about_banner{
+   background-image: url("images/Testimonial/cat-pet-animal-domestic-104827.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.welcome{
+    padding-top: 300px;
+    padding-left: 60px;
+}
+.welcome a:hover{
+    text-decoration: none;
+}
+.welcome-header{
+  color: aqua;
+    padding: 30px;
+    width: 250px;
+    border:2px solid green;
+    -webkit-border:2px solid green;
+    -moz-border:2px solid green;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+        transition: 1s;
+        -o-transition:1s;
+}
+.welcome-header:hover{
+    background-color: black;
+    color: white;
+    width: 550px;
+    text-decoration: none;
+        transition: 0.5s;
+        -o-transition:0.5s;
+}
+.welcome-header.with-arrow {
+  position: relative;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition:1s;
+        border: 2px solid aqua;
+}
+.welcome-header.with-arrow i {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -10px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.welcome-header.with-arrow:hover {
+  padding-right: 10px;
+    
+}
+.welcome-header.with-arrow:hover i {
+  color: gold;
+  right: 18px;
+  visibility: visible;
+  opacity: 1;
+}
+@media (min-width:320px) and (max-width:480px){
+    .welcome{
+    padding-top: 350px;
+    padding-left: 50px;
+   }
+    .welcome-header{
+  color: white;
+    padding: 7px;
+    border-radius: 50px;
+    }
+    
+.welcome-header:hover{
+    width: 325px;
+  }
+    .welcome-header:hover h1 i b{
+        visibility: hidden;
+    }
+    .welcome-header.with-arrow:hover i{
+        right: -180px;
+    }
+   
+}
+.about{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.well.well-lg{
+    text-align: center;
+}
+.about_image{
+    height: auto;
+    background-color: yellow;
+}
+.image1{
+    height: 500px;
+    background-image: url(images/About/Ikwegbu%20George.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+   float: left;
+    margin-left: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.image2{
+     height: 500px;
+    background-image: url(images/About/OnyekachiMichael.png);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.gap{
+    padding-top: 290px;
+}
+.info{
+    height: auto;
+    width: 380px;
+    background-color: orange;
+    background: transparent;
+    padding-left: 10px;
+}
+.info h3{
+    border: 2px solid green;
+    width: 100px;
+  padding-top: 20px;
+  padding-left: 9px;
+  padding-right: 10px;
+   margin-left: 10px;
+    border-radius: 90px;
+    color: white;
+    text-align: center;
+    transition: 3s;
+    background-color: violet;
+}
+.info:hover h3{
+    margin-top: -70px;
+    width: 150px;
+    padding-bottom: 20px;
+  background: transparent;
+    transition: 3s;
+}
+.info:hover b{
+    visibility: visible;
+}
+.info b{
+   background-color: rgba(220, 215, 189, 0.5);
+    color: black;
+    border: 1px solid aqua;
+    padding: 7px;
+    margin-bottom: 20px;
+    color: white;
+   visibility: hidden;
+    border-radius: 5px;
+}
+#p{
+    color: black;
+}
+/*End*/
